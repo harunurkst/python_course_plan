@@ -80,3 +80,32 @@ True
 'desh'
 ```
 ** also show indexing with variable
+## TypeCasting
+```python
+>>> type(2)
+<class 'int'>
+>>> type("2")
+<class 'str'>
+>>> int("2")
+2
+>>> str(2)
+'2'
+```
+## Operator
+** Different type of operator
+1. Arithmetic operator  
+2. Comparison operator  
+3. Assignment operator  
+4. Logical operators (and, or, not)  
+5. Membership operators (in, not in)  
+6. Identity operator (is, not is)  
+```python
+>>> a = 1, 
+>>> b = 1
+>>> a is b
+True
+>>> a = 276
+>>> b = 275
+>>> a is b 
+False
+```
