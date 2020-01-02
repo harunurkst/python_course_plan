@@ -38,11 +38,6 @@ True
 'ab'
 >>> "a" *3
 'aaa'
->>> "2" + 2
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: can only concatenate str (not "int") to str
-
 >>> "He's a man"
 "He's a man"
 >>> "First line\n Second line"
@@ -95,6 +90,12 @@ True
 2
 >>> str(2)
 '2'
+>>> "2" + 2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> age = 25
+>>> "My age is" + str(age)
 ```
 ## Operator
 ** Different type of operator
