@@ -78,6 +78,7 @@ True
 'adesh'
 >>> "bangladesh"[6:]
 'desh'
+
 ```
 ** also show indexing with variable
 ## TypeCasting
@@ -114,4 +115,9 @@ True
 >>> b = 275
 >>> a is b 
 False
+>>> vowel = "aeiou"
+>>> "a" in vowel
+True
 ```
+**QUIZ:** if fruit = "apple", then check first letter of fruit is vowel or not  
+
